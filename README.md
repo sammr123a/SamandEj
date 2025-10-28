@@ -21,4 +21,12 @@
 <h3>P4 ( Discover ) : This page will focuses on discovering the artist's music while containing a list and description of said artists  </h3>
 <h3>P5 ( Sources ) : This page will contain the reference list of the sources we used.  </h3>
 
+---
+<h2>Incorporating JavaScript:</h2>
+<ul>
+  <li>In the Page 3, artists, when the artist's screen name is clicked, the introductory text of the artist will smoothly fade in the webpage until it is in full opacity.  </li>
+  <li>In the Page 3, artists, when you click the image of an artist, JavaScript will be used to make an image carousel that features different images of the artist.</li>
+  <li>In the Page 4, discover, the artists will transition smoothly in the webpage until full opacity when the text "Recommended Artists" is clicked.</li>
+</ul>
+
 
