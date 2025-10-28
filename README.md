@@ -29,4 +29,36 @@
   <li>In the Page 4, discover, the artists will transition smoothly in the webpage until full opacity when the text "Recommended Artists" is clicked.</li>
 </ul>
 
+---
+<h3>Wireframe: </h3>
+
+**P1 (Home page)**
+
+<img width="1920" height="1580" alt="3" src="https://github.com/user-attachments/assets/88dd8c87-174f-4355-b380-0ba34651f4f5" />
+
+**P2 ( About us )**
+
+<img width="1920" height="1580" alt="4" src="https://github.com/user-attachments/assets/74f2e96d-54d6-407f-a563-ef4c8b260bdc" />
+
+**P3 ( Artists )**
+
+<img width="1920" height="1580" alt="5" src="https://github.com/user-attachments/assets/f9af4b98-7311-42e5-9d86-df4c8a40857c" />
+
+**P4 ( Discover )**
+
+<img width="1920" height="1580" alt="6" src="https://github.com/user-attachments/assets/d4301c37-8c0e-4c5e-b170-ab8ba7d178b3" />
+
+**P5 ( Sources )**
+
+<img width="1920" height="1580" alt="7" src="https://github.com/user-attachments/assets/e234f00f-f564-4f7c-b487-2aa33c5395da" />
+
+---
+
+
+
+
+
+
+
+
 
