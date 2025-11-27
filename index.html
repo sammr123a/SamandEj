@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Encoding + mobile responsiveness -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Page info -->
+  <title>discover y2k music. eastside / westside.</title>
+  <meta name="description" content="various artists from the rap and rnb of y2k. find more about the battle between eastside and westside rap.">
+  <meta name="author" content="Samantha Therese Austria & Emmanuel Jr. R. Bansil">
+
+  <!-- Stylesheet -->
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="styleIndex.css">
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Main navigation">
+            <a class="brand" href="index.html">My Site</a>
+            <ul class="nav-list">
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <!-- Future: <li><a href="about.html">About</a></li> -->
+                <!-- Future: <li><a href="projects.html">Projects</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <footer>
+        <ul class="social-list">
+            <li><a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://your-username.github.io" target="_blank" rel="noopener noreferrer">GitHub Pages</a></li>
+            <li><a href="https://facebook.com/your-username" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href="https://instagram.com/your-username" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="https://x.com/your-username" target="_blank" rel="noopener noreferrer">X</a></li>
+        </ul>
+    </footer>
+
+    <p class="copyright">
+        &copy; <span id="year"></span> Samantha Therese Austria & Emmanuel Jr. R. Bansil. All rights reserved.
+    </p>
+
+    <script>
+        // Auto-set current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
