@@ -1,6 +1,6 @@
 
-<h1>discover y2k music.</h1>
-<h2>various artists from the rap and rnb of y2k</h2>
+<h1>discover east and west coast rap music.</h1>
+<h2>various artists from the east and west coast rap </h2>
 
 ---
 <h4> Logo: </h4>
