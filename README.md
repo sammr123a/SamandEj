@@ -5,7 +5,7 @@
 ---
 <h4> Logo: </h4>
 
-<img width="581" height="474" alt="image" src="https://github.com/user-attachments/assets/9bac4126-e89a-4b0e-ad08-7c59150a2411" />
+<img width="474" height="474" alt="image" src="assets/favicon.png" />
 
 <h4> Description: </h4>
 
