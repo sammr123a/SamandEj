@@ -4,8 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
     <!-- Page info -->
-    <title>discover y2k music. eastside / westside.</title>
-    <meta name="description" content="various artists from the rap and rnb of y2k. find more about the battle between eastside and westside rap.">
+    <title>discover 90s music. eastside / westside.</title>
+    <meta name="description" content="various artists from the rap and rnb of 90s. find more about the battle between eastside and westside rap.">
     <meta name="author" content="Samantha Therese Austria & Emmanuel Jr. R. Bansil">
   
     <!-- Stylesheet -->
@@ -14,18 +14,36 @@
 </head>
 
 <body> 
-    <div class="headerbg"></div>
-    <div class="titletext"> discover y2k music. </div>
-    <div class="nav"> 
-        <a href="TEST.html" style="text-decoration: underline;"> Home </a>
-        <a href="public/about-us.html"> About Us </a>
-        <a href="public/artists.html"> Some Artists </a>
-        <a href="public/discover.html"> Discover </a>
-        <a href="public/sources.html"> Sources </a>
-    </div>
+    <header>
+        <div class="pixel"></div>
+        <div class="headerbg"></div>
+        <div class="titletext"> discover 90s music. </div>
+
+        <nav>
+            <div class="nav"> 
+                <a href="TEST.html" style="text-decoration: underline;"> Home </a>
+                <a href="public/about-us.html"> About Us </a>
+                <a href="public/artists.html"> Some Artists </a>
+                <a href="public/discover.html"> Discover </a>
+                <a href="public/sources.html"> Sources </a>
+            </div>
+        </nav>
+    </header>
+
     <div class="main"> 
         <h1> Introduction to Rap </h1>
         <p> This text has an introduction on Y2K Music and its uniqueness. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula, arcu ac gravida volutpat, massa diam consequat sapien, at pulvinar urna elit in quam. Curabitur eros ipsum, elementum in malesuada vel, tincidunt at eros. Phasellus porta venenatis felis, vel bibendum elit aliquet ut. Sed id velit fringilla, tristique mi in, placerat nisl. Cras vitae sagittis libero, ut suscipit tellus. Cras bibendum felis dignissim libero gravida, gravida dictum turpis sollicitudin. Pellentesque non fermentum justo. Do you smell that? Me neither. Start farting. Just fart, didn't wipe 😩. You accidentally left me on read haha. Up djibouti. Up there! Under where? ... I just wanted to say underwear...  </p>
         <img src="assets/snoop-dog-sticker.png" style="height:180px; position:fixed;left:85.7vw;top:360px;"/>
     </div>
+
+    <footer>
+        <div class="footer"> 
+            <p class="right"> &copy; <span id="year"></span> Samantha Therese Austria & Emmanuel Jr. R. Bansil. All rights reserved. </p>
+            <p class="left"> source. source. source. </p>
+        </div>
+
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </footer>
 </body>
