@@ -31,35 +31,120 @@
     </header>
 
     <div class="main"> 
-        <h1> Some Westside W-Westside Rappers </h1>
+        <h1> Some Westside Rappers </h1>
         <p style="margin-bottom:10px;"> Here are some westside rappers in the 90s! Click on one of the cards to learn more about them! </p>
         <div style="display:flex;"> 
+            <!-- TUPAC -->
             <div class="artistcontainer">
-                <img src="../assets/2pac-idpic.jpg" alt="Picture of Tupac">
-                <div> 
-                    <h2 style="line-height: 1.2; margin-top: 5px;"> 2pac </h2>
-                    <p style="text-indent:0px;"> Tupac Text </p>
+                <button id="2pac-modal-btn" style="display: flex;">
+                    <img src="../assets/2pac-idpic.jpg" alt="Picture of Tupac" style="transform: rotate(2deg);">
+                    <div> 
+                        <h2 style="line-height: 1.2; margin-top: 5px;"> 2pac </h2>
+                        <p style="text-indent:0px;"> Tupac was an American rapper, actor... </p>
+                    </div>
+                </button>
+            </div>
+
+            <div id="2pac-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div style="display: flex;">
+                        <img src="../assets/2pac-license.png" style="width:600px;height:350px;transform:rotate(2deg);box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/>
+                        <div style="display:flex;flex-direction:column;">
+                            <h2> Tupac (2Pac) Shakur </h2>
+                            <p style="padding-left:88px ;text-indent: -88px;">
+                                    <b> Name/s: </b> Tupac Amaru Shakur <i> (full stage name) </i> <br>
+                                Lesane Parish Crooks <i> (full birth name) </i> <br>
+                                2Pac <i> (stage name) </i> <br>
+                                Makaveli <i> (stage name) </i> <br>
+                            </p>
+                            <p style="padding-left:88px ;text-indent: -88px;">
+                                <b> Birth Date: </b> June 16, 1971
+                            </p>
+                            <p style="padding-left:88px ;text-indent: -88px;">
+                                <b> Birth Place: </b> Manhattan, New York City, U.S.A.
+                            </p>
+                            <p style="padding-left:88px ;text-indent: -88px;">
+                                <b> Date of Death: </b> September 13, 1996
+                            </p>
+                            <p><br></p>
+                            <p>
+                                Tupac was an American rapper, actor, and poet known for his powerful lyrics about racism, poverty, violence, and social injustice. He became one of the most influential and iconic figures in hip-hop. Despite his short life, his music and activism left a lasting global impact.
+                            </p>
+                            <p><br></p>
+                            <p style="margin-left: -550px;">
+                                Tupac produced some of the most enduring hits in hip-hop, blending raw emotion with social commentary. Songs like “California Love,” “Changes,” “Hit ’Em Up,” “Dear Mama,” “Keep Ya Head Up,” “Hail Mary,” and “All Eyez on Me” showcased his versatility—from party anthems to deeply personal reflections. His music often addressed themes of inequality, resilience, and loyalty, resonating with listeners across generations. These hits cemented his legacy as one of the most influential artists in rap history.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+             <!-- SNOOP DOGG -->
             <div class="artistcontainer">
-                <img src="../assets/snoopdogg-idpic.jpg" alt="Mugshot of Snoop Dogg">
-                <div> 
-                    <h2 style="line-height: 1.2; margin-top: 5px;"> Snoop Dogg </h2>
-                    <p style="text-indent:0px;"> Snoop Dogg Text </p>
+                <button id="snoop-modal-btn" style="display: flex;">
+                    <img src="../assets/snoop-idpic.jpg" alt="Mugshot of Tupac" style="transform: rotate(-2deg);">
+                    <div> 
+                        <h2 style="line-height: 1.2; margin-top: 5px;"> Snoop Dogg </h2>
+                        <p style="text-indent:0px;"> Snoop is... </p>
+                    </div>
+                </button>
+            </div>
+
+            <div id="snoop-modal" class="modal">
+                <div class="modal-content">
+                    <span class="snoopclose">&times;</span>
+                    <div style="display: flex;">
+                        
+                        <div style="display:flex;flex-direction:row;">
+                            <div>
+                                <h2> Snoop Doggy Dogg </h2>
+                                <p style="padding-left:50px ;text-indent: -88px;">
+                                    <b> Name/s: </b> Snoop Doggy Dogg <i> (full stage name) </i> <br>
+                                    Calvin Cordozar Broadus Jr. <i> (full birth name) </i> <br>
+                                    Snoop Dogg <i> (stage name) </i> <br>
+                                </p>
+                                <p style="padding-left:50px ;text-indent: -88px;">
+                                    <b> Birth Date: </b> October 20, 1971
+                                </p>
+                                <p style="padding-left:50px ;text-indent: -88px;">
+                                    <b> Birth Place: </b> Long Beach, California, U.S.A.
+                                </p>
+                                <p style="padding-left:50px ;text-indent: -88px;">
+                                    <b> Date of Death: </b> <i>N/A</i>
+                                </p>
+                                <p><br></p>
+                                <p style="margin-left: 0px;">
+                                    Snoop Dogg is an American rapper, singer, actor, and cultural icon who rose to fame in the early 1990s under Dr. Dre’s mentorship. Known for his laid-back flow and West Coast sound, he became one of hip-hop’s most recognizable figures. Throughout his long career, he has remained influential in music, pop culture, and entertainment.
+                                </p>
+                                <p><br></p>
+                                <p style="margin-left: 0;margin-right: -800px;">
+                                    Snoop Dogg has delivered some of hip-hop’s most iconic hits, marked by his smooth flow and unmistakable West Coast style. His breakout tracks like “Gin and Juice,” “Who Am I? (What’s My Name?),” and his features on “Nuthin’ but a ‘G’ Thang” and “Still D.R.E.” helped define 1990s rap. Later songs such as “Drop It Like It’s Hot,” “Beautiful,” and “Young, Wild & Free” showed his ability to stay relevant across generations. These hits highlight his versatility and cement his status as one of rap’s most enduring and influential artists.
+                                </p>
+                            </div>
+                            <div>
+                                <img src="../assets/snoop-license.png" style="float: right;margin-right:200px;width:600px;height:350px;transform:rotate(-2deg);box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/>
+                                
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <!-- DR. DRE -->
             <div class="artistcontainer">
-                <img src="../assets/drdre-idpic.jpg" alt="Picture of Dr. Dre">
+                <img src="../assets/drdre-idpic.jpg" alt="Picture of Dr. Dre" style="transform: rotate(-4deg);">
                 <div> 
                     <h2 style="line-height: 1.2; margin-top: 5px;"> Dr. Dre </h2>
                     <p style="text-indent:0px;"> Dr. Dre Text </p>
                 </div>
             </div>
+
             <div class="artistcontainer">
-                <img src="../assets/nicki-mugshot.jpg" alt="Mugshot of Nicki Minaj">
+                <img src="../assets/eazye-idpic.webp" alt="Picture of Eazy-E" style="transform: rotate(4deg); filter: grayscale(100%);">
                 <div> 
                     <h2 style="line-height: 1.2; margin-top: 5px;"> Eazy-E </h2>
-                    <p style="text-indent:0px;"> Nicki Minaj Text </p>
+                    <p style="text-indent:0px;"> Eazy-E Text </p>
                 </div>
             </div>
         </div>
@@ -68,31 +153,34 @@
         <p style="margin-bottom:10px;"> Here are some eastside rappers in the 90s! Click on one of the cards to learn more about them! </p>
         <div style="display:flex;"> 
             <div class="artistcontainer">
-                <img src="../assets/nicki-mugshot.jpg" alt="Mugshot of Nicki Minaj">
+                <img src="../assets/jayz-idpic.jpg" alt="Mugshot of Jay-Z" style="width: 10vw; transform: rotate(-2deg); filter: grayscale(100%);">
                 <div> 
-                    <h2 style="line-height: 1.2; margin-top: 5px;"> B.I.G </h2>
-                    <p style="text-indent:0px;"> Nicki Minaj Text </p>
+                    <h2 style="line-height: 1.2; margin-top: 5px;"> Jay-Z </h2>
+                    <p style="text-indent:0px;"> Jay-Z Text </p>
                 </div>
             </div>
+
             <div class="artistcontainer">
-                <img src="../assets/nicki-mugshot.jpg" alt="Mugshot of Nicki Minaj">
+                <img src="../assets/big-idpic.jpg" alt="Mugshot of B.I.G." style="width: 10vw; transform: rotate(4deg); filter: grayscale(100%);">
                 <div> 
-                    <h2 style="line-height: 1.2; margin-top: 5px;"> B.I.G </h2>
-                    <p style="text-indent:0px;"> Nicki Minaj Text </p>
+                    <h2 style="line-height: 1.2; margin-top: 5px;"> B.I.G. </h2>
+                    <p style="text-indent:0px;"> B.I.G. Text </p>
                 </div>
             </div>
+
             <div class="artistcontainer">
-                <img src="../assets/nicki-mugshot.jpg" alt="Mugshot of Nicki Minaj">
+                <img src="../assets/nas-idpic.jpg" alt="Picture of Nas" style="transform: rotate(2deg); filter: grayscale(100%);">
                 <div> 
                     <h2 style="line-height: 1.2; margin-top: 5px;"> Nas </h2>
-                    <p style="text-indent:0px;"> Nicki Minaj Text </p>
+                    <p style="text-indent:0px;"> Nas Text </p>
                 </div>
             </div>
+
             <div class="artistcontainer">
-                <img src="../assets/nicki-mugshot.jpg" alt="Mugshot of Nicki Minaj">
+                <img src="../assets/fiftycent-idpic.jpg" alt="Picture of 50-Cent" style="width: 10vw; transform: rotate(-4deg); filter: grayscale(100%);">
                 <div> 
                     <h2 style="line-height: 1.2; margin-top: 5px;"> 50-Cent </h2>
-                    <p style="text-indent:0px;"> Nicki Minaj Text </p>
+                    <p style="text-indent:0px;"> 50-Cent Text </p>
                 </div>
             </div>
         </div>
@@ -105,7 +193,7 @@
             <p class="left"> source. source. source. </p>
         </div>
 
-        <script>
+        <script src="artistsjs.js">
             document.getElementById('year').textContent = new Date().getFullYear();
         </script>
     </footer>
