@@ -115,6 +115,7 @@ body {
       border-collapse: collapse;
       width:80vw;
       margin:0 auto;
+      margin-bottom:20px;
       background-color: white;
       border-radius: 10px;
       overflow: hidden;
@@ -137,7 +138,34 @@ body {
       background-color: #f3f3f3;
     }
 
-   
+   .scroll-container{
+    margin-left:45px;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+   }
+   .scroll-item{
+    width:150px;
+    height:150px;
+   }
+  ::-webkit-scrollbar {
+    width: 15px;
+}
+
+    /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    }
+
+    /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background-image: url(../assets/scrollbattest.png);
+    }
 
 .footer {
     display: flex;
