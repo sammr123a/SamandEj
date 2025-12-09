@@ -37,3 +37,24 @@ window.onclick = function(event) {
     snoopmodal.style.display = "none";
   }
 }
+
+
+var dremodal = document.getElementById("dre-modal");
+
+var drebtn = document.getElementById("dre-modal-btn");
+
+var drespan = document.getElementsByClassName("dreclose")[0];
+
+drespan.onclick = function() {
+  dremodal.style.display = "block";
+}
+
+snoopspan.onclick = function() {
+  dremodal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == dremodal) {
+    dremodal.style.display = "none";
+  }
+}
