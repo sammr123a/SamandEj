@@ -1,0 +1,187 @@
+@font-face {
+  font-family: 'Urban Starblues'; /* set name */
+  src: url(../assets/Urban\ Starblues\ Demo.otf); /* url of the font */
+}
+@font-face {
+  font-family: 'Death Subway'; /* set name */
+  src: url(../assets/DeathSubway-Regular.ttf); /* url of the font */
+}
+body {
+    background-color: #f0f0f0;
+    background-image: url(../assets/bg-stars.png);
+    background-size: 50px;
+}
+.pixel::before {
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    z-index: 20;
+    background-size: 100% 2px, 3px, 100%;
+    pointer-events: none;
+}
+.headerbg {
+    background-image: url(../assets/nicki-mugshot.jpg);
+    background-size: 150px;
+    border:1px solid black;
+    width: 85vw;
+    height:150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.titletext {
+    margin-top: -30px;
+    margin-right: 10vw;
+    font-family: 'Urban Starblues';
+    font-size: 72px;
+    text-align: right;
+    line-height: 0.6;
+    text-shadow: 0 0 24px #ffffff;
+    color:black;
+    letter-spacing: 4px;
+}
+.nav {
+    background-color: #c6c6c6;
+    border:1px solid black;
+    width: 85vw;
+    height:50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    display: flex;
+    justify-content: center;
+}
+.nav a {
+    background-color: #ebebeb;
+    border:1px solid black;
+    margin: 5px 6px;
+    width: 15vw;
+    height:40px;
+    font-family: 'Death Subway';
+    font-size:15px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center; 
+}
+.nav a:hover {
+    color: gray;
+}
+.main {
+    background-color: #c6c6c6;
+    border:1px solid black;
+    width: 85vw;
+    height:800px;
+    margin-top:15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main h1 {
+    font-family: 'Urban Starblues';
+    font-size: 60px;
+    letter-spacing: 8px;
+    text-align: left;
+    line-height: 0.6;
+    color: black;
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white, 0 0 12px black;
+}
+.main h2 {
+    font-family: 'Death Subway';
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-align: left;
+    line-height: 0.6;
+    color: black;
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white, 0 0 12px black;
+    margin-left: 50px;
+}
+.main p {
+    font-family: monospace;
+    font-size: 20px;
+    margin:0 50px;
+    text-indent:50px;
+    word-break: normal;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85vw;
+    margin-top: -15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer .right {
+    text-align: right;
+}
+.footer .left {
+    text-align: left;
+}
+.artistcontainer {
+    display: flex;
+    border:1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18vw;
+    padding: 20px;
+    background-color: gainsboro;
+    margin-bottom: 20px;
+}
+.artistcontainer img {
+    height:17vh;
+    width:17vh;
+    border: 7px solid white;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 30px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close, .snoopclose {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus, .snoopclose:hover, .snoopclose:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main button {
+    border: rgba(0, 0, 0, 0);
+    background-color: rgb(0, 0, 0, 0);
+}
+.main button:hover {
+    border: rgba(0, 0, 0, 0);
+    background-color: rgb(0, 0, 0, 0);
+    cursor: pointer
+}
