@@ -78,7 +78,7 @@ body {
     background-color: #c6c6c6;
     border:1px solid black;
     width: 85vw;
-    height:1000px;;
+    height:1400px;;
     margin-top:15px;
     margin-left: auto;
     margin-right: auto;
@@ -111,22 +111,35 @@ body {
     text-indent:50px;
     word-break: normal;
 }
-   table {
-      border-collapse: collapse;
-      width:80vw;
-      margin:0 auto;
-      margin-bottom:20px;
-      background-color: white;
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+table {
+    border-collapse: collapse;
+    width:80vw;
+    margin:0 auto;
+    margin-bottom:20px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
-    td {
-      font-family: monospace;
-      color:black;
-      padding: 12px;
-      text-align: left;
+td {
+    font-family: monospace;
+    color:black;
+    padding: 12px;
+    text-align: left;
+    }
+td:first-child {
+    font-size: medium;
+    display:flex; 
+    align-items: center; 
+    gap: 10px;
+    }
+    td:nth-child(2), td:nth-child(3) {
+      color:#858585;
+    }
+    td img {
+      width:50px;
+      padding:5px;
     }
     tr:hover td {
       background-color: #e8e8e8;
@@ -137,6 +150,13 @@ body {
     tr:nth-child(even) {
       background-color: #f3f3f3;
     }
+    
+.scroll-item:hover{
+  transition:0.3s ease;
+  filter:brightness(90%);
+}
+
+
 
    .scroll-container{
     margin-left:45px;
@@ -149,6 +169,7 @@ body {
     height:150px;
    }
   ::-webkit-scrollbar {
+    height: 5px;
     width: 15px;
 }
 
@@ -164,7 +185,7 @@ body {
 
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-    background-image: url(../assets/scrollbattest.png);
+    background-image: url(../assets/scrollbartest.png);
     }
 
 .footer {
