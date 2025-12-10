@@ -11,6 +11,7 @@ var moon88link= document.getElementById("moon88");
 var lovedelxlink= document.getElementById("lovedelx");
 var brandnewlink= document.getElementById("brandnew");
 
+
 abbeylink.onclick = function() {
   window.open ("https://open.spotify.com/album/0ETFjACtuP2ADo6LFhL6HN?si=vRgefVq_TIOytpSFfVjiVw", "_blank");
 }
@@ -59,6 +60,66 @@ brandnewlink.onclick = function() {
   window.open ("https://open.spotify.com/album/27UqZoE1kV6sIV6uQcI28A?si=c8E1EUztREGCj_4vSr2SJA", "_blank");
 }
 
+var beatleslink= document.getElementById("beatles");
+var Bjoellink= document.getElementById("Bjoel");
+var Bmarslink= document.getElementById("Bmars");
+var cranblink= document.getElementById("cranb");
+var eheadslink= document.getElementById("eheads");
+var iwormslink= document.getElementById("iworms");
+var Knadallink= document.getElementById("Knadal");
+var mstar88link= document.getElementById("mstar88");
+var nirvanalink= document.getElementById("nirvana");
+var pmorelink= document.getElementById("pmore");
+var sadelink= document.getElementById("sade");
+var zildlink= document.getElementById("zild");
+
+beatleslink.onclick = function() {
+    window.open ("https://www.thebeatles.com/beatles-anthology-0", "_blank");
+}
+
+Bjoellink.onclick = function() {
+    window.open ("https://www.billyjoel.com/biography/", "_blank");
+}
+
+Bmarslink.onclick = function() {
+    window.open ("https://www.britannica.com/biography/Bruno-Mars", "_blank");
+}
+
+cranblink.onclick = function() {
+    window.open ("https://cranberriesworld.com/crancyclopedia/biography/", "_blank");
+}
+
+eheadslink.onclick = function() {
+    window.open ("https://eraserheads.fandom.com/wiki/Eraserheads", "_blank");
+}
+
+iwormslink.onclick = function() {
+    window.open ("https://russel.fandom.com/wiki/Itchyworms", "_blank");
+}
+
+Knadallink.onclick = function() {
+    window.open ("https://opm-music.fandom.com/wiki/Kitchie_Nadal", "_blank");
+}
+
+mstar88link.onclick = function() {
+    window.open ("https://www.abs-cbn.com/entertainment/studios/music/2025/5/21/one-music-ph-360-25-things-about-moonstar88-1139", "_blank");
+}
+
+nirvanalink.onclick = function() {
+    window.open ("https://www.britannica.com/topic/Nirvana-band", "_blank");
+}
+
+pmorelink.onclick = function() {
+    window.open ("https://paramore.net/", "_blank");
+}
+
+sadelink.onclick = function() {
+    window.open ("https://www.sade.com/", "_blank");
+}
+
+zildlink.onclick = function() {
+    window.open ("https://ppop.fandom.com/wiki/Zild_Benitez", "_blank");
+}
 
 
 document.getElementById('year').textContent = new Date().getFullYear()
